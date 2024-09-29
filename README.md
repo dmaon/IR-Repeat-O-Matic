@@ -1,6 +1,7 @@
 # IR-Repeat-O-Matic: The Ultimate Remote Control Copier!
 Have you ever found yourself frustrated by a lost remote control or the need to juggle multiple remotes for your devices? Introducing the **IR-Repeat-O-Matic**, a fun and innovative project that allows you to copy and mimic the signals from any infrared remote control with just the press of a button!
 ![schematic of circuit](Remote-Control-Copier.png)
+**Note**: I implemented a different design using the ESP32, and while the Tinkercad schematic is theoretically similar, some adjustments may be needed to ensure proper functionality.
 
 ### Overview
 The IR-Repeat-O-Matic is a clever little device built using an ESP32 microcontroller, an IR receiver, and an IR transmitter. This project enables users to capture the signals from their existing remote controls and store them in the memory of the ESP32. With two simple buttons on the board, you can easily send these stored signals to your devices, such as TVs, air conditioners, or any other IR-controlled appliance.
